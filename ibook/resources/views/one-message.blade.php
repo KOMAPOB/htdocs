@@ -6,8 +6,8 @@
    <h1>Редактирование книги</h1>
    <div>
       <h3>Название книги: "{{ $data->book }}" Автор: {{$data ->name}}</h3>
-      <a href="{{ route ('about-update', $data->id)}}"><button></button>Детальнее</a>
-      <a href="{{ route ('about-delete', $data->id)}}"><button></button>Удаление</a>
+      <a href="{{ route ('about-update', $data->id)}}"><button></button>Редактировать</a>
+      <a href="{{ route ('about-delete', $data->id)}}"><button></button>Удалить</a>
    </div>
 
 @endsection
